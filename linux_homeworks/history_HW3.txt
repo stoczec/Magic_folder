@@ -1,0 +1,8 @@
+   0 date > /home/hm3.txt
+   1 df -h | grep -i 'g' | awk '{print $3}' >> /home/hm3.txt
+   2 history | tail -5 >> /home/hm3.txt
+   3 cat /proc/cpuinfo | grep '86' | awk '{print $3}' >> /home/hm3.txt
+   4 nano
+   5 ps -ef | tail -n +2 | wc -l >> /home/hm3.txt
+   6 export_file /home/hm3.txt 
+   7 history > history.txt

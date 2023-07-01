@@ -1,0 +1,6 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 > /tmp/file.txt 
+   2 chmod 664 /tmp/file.txt 
+   3 chmod 264 /tmp/file.txt 
+   4 chmod 265 /tmp/file.txt 
+   5 history > history_hw4.txt

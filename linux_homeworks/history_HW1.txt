@@ -1,0 +1,18 @@
+   0 whoami
+   1 cd /
+   2 mkdir /home/animals
+   3 cd /home/animals
+   4 mkdir dogs cats fish
+   5 touch cats/garfield.txt dogs/pluto.txt fish/nemo.txt
+   6 tree
+   7 cd /
+   8 touch tmp/adam.txt
+   9 mkdir home/humans
+  10 cp tmp/adam.txt /home/humans
+  11 touch tmp/evA.txt
+  12 mv tmp/evA.txt opt/eve.txt
+  13 mv opt/eve.txt home/humans
+  14 cd /home/humans
+  15 ls
+  16 cd /
+  17 history > history.txt
