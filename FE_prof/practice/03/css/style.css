@@ -1,0 +1,24 @@
+.buttonOne {
+    margin: 10px;
+    width: 50px;
+    background-color: mediumspringgreen;
+}
+
+.buttonTwo {
+    margin: 10px;
+    width: 50px;
+    background-color: mediumorchid;
+}
+
+p {
+    display: block;
+}
+
+div {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 3px;
+}

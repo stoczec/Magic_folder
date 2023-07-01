@@ -1,0 +1,23 @@
+.form__card {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.form__card input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form__card button {
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.block-center__image {
+    max-width: 499px;
+    max-height: 475px;
+    border-radius: 50%;
+    background: #f2f6fc30;
+}
+
+.block-center__miniblock {
+    margin-top: 33px;
+    text-align: center;
+}
+
+.block-center__textDelivery {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffd0;
+}
+
+.block-center__textSale {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #ffffd0;
+}
+
+.block-center__span {
+    color: #01cd7d;
+}

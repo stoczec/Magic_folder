@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+/* ELEM_BLOCK ========== FORM ========== */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.form_input {
+  width: 200px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+.form_btn {
+  width: 200px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* ELEM_BLOCK ========== CARDS ========== */
+
+.cards_container {
+  min-width: 80%;
+  background-color: lightgray;
+  padding: 50px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: lightyellow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  position: relative;
+}
+
+.card_delete {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.card_title {
+  font-size: 40px;
+  font-weight: 600;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.card_price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_container-counter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card_btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card_btn-minus:hover {
+  background-color: lightcoral;
+}
+.card_btn-plus:hover {
+  background-color: lightgreen;
+}
+
+.card_totalPrice {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btnLS {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: lightsalmon;
+  border-radius: 15px;
+}

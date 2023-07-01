@@ -1,0 +1,256 @@
+.header {
+}
+/* ---------- TOPBAR ---------- */
+.topbar {
+    background: #1e212c;
+}
+.topbar__container {
+    display: flex;
+}
+
+.topbar__container * {
+    color: gray;
+    transition: var(--trans);
+}
+
+.topbar__link:hover,
+.topbar__link:hover *,
+.topbar__item:hover,
+.dropdown__item:hover,
+.topbar__register:hover,
+.topbar__img:hover {
+    color: #fff;
+    transition: var(--trans);
+}
+
+.topbar__link {
+    margin-right: 195px;
+
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.topbar__menu {
+    display: flex;
+    gap: 32px;
+    margin-right: 195px;
+}
+.topbar__item {
+    cursor: pointer;
+
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    opacity: 0.6;
+}
+.topbar__language {
+    margin-right: 60px;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.dropdown__item {
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    /* opacity: 0.6; */
+}
+.dropdown__image {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.dropdown > img {
+    width: 15px;
+    cursor: pointer;
+}
+.dropdown__menu {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 0;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 20px;
+    right: 5px;
+
+    box-shadow: 0 1.75rem 1.875rem rgba(154, 156, 165, 0.08),
+        0 1.25rem 1rem rgba(154, 156, 165, 0.05),
+        0 0.5rem 0.625rem rgba(154, 156, 165, 0.04),
+        0 0.25rem 0.25rem rgba(30, 33, 44, 0.03);
+
+    display: none;
+}
+
+.dropdown__menu.active {
+    display: flex;
+    background-color: #ffffff;
+}
+.dropdown__menu * {
+    color: #000;
+}
+
+.dropdown__item:hover {
+    color: green;
+}
+.active_item:hover {
+    color: white;
+}
+
+.topbar__register {
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    opacity: 0.6;
+
+    display: flex;
+    align-items: center;
+}
+.topbar__img {
+    margin-right: 8px;
+}
+
+/* ---------- NAVBAR ---------- */
+
+.navbar__container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar__menu {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.navbar__menu a:hover {
+    color: #17696a;
+}
+
+.navbar__input {
+    width: 380px;
+    padding: 12px 16px;
+
+    background: #ffffff;
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+
+    background-image: url(../img/header/search.png);
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+
+    outline: none;
+}
+
+.navbar__input:focus {
+    border: 1px solid #17696a;
+    box-shadow: 0px 10px 13px -7px #17696a;
+}
+
+.navbar__blockItems {
+    display: flex;
+}
+
+.navbar__blockItems > div {
+    display: flex;
+    gap: 8px;
+}
+
+.cart__count {
+    background-color: #03cea4;
+    width: 23px;
+    height: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.navbar__blockItems > div:nth-child(1) {
+    border-right: 1px solid #dadbdd;
+}
+
+.navbar__like {
+    padding-right: 20px;
+}
+
+.navbar__like img {
+    filter: hue-rotate(-90deg);
+}
+
+.navbar__cart {
+    padding-left: 20px;
+}
+
+/* ---------- PROMOBAR ---------- */
+
+.promobar {
+    background: #17696a;
+}
+
+.promobar__container {
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promobar__container > p {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.promobar__container > a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.promobar__container > p:nth-child(1) {
+    margin-right: 18px;
+    cursor: pointer;
+    /* font-size: 30px; */
+}
+
+.promobar__container > p:nth-child(4) {
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.promobar__container > p:nth-child(2) {
+    margin-right: 4px;
+}
+
+.promobar__container > a:hover {
+    text-decoration-line: none;
+}

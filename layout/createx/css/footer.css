@@ -1,0 +1,110 @@
+.footer {
+    background: #1e212c;
+}
+
+.footer__container {
+    padding: 60px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 150px;
+}
+
+.footer__nav > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.nav__menu {
+    gap: 4px;
+}
+
+.nav__menu a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.nav__menu a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav__menu span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+}
+
+.nav__get > .nav__menu li {
+    display: flex;
+    gap: 4px;
+}
+
+.nav__get:has(.nav__social) .nav__menu {
+    margin-bottom: 24px;
+}
+
+.nav__social {
+    display: flex;
+    gap: 12px;
+}
+
+.nav__social i {
+    color: #424551;
+    transition: 0.5s;
+}
+
+.nav__social i:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.market__footer {
+    width: 100%;
+}
+
+/* ELEM_BLOCK ========== FOOTER RIGHTS ========== */
+
+.footer__rights {
+    padding: 24px 0 32px 0;
+    /* opacity: 0.15; */
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.rights__container {
+    display: flex;
+    gap: 4px;
+}
+
+.rights__container p,
+a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.rights__container a {
+    text-decoration: underline;
+}

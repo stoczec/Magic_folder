@@ -1,0 +1,19 @@
+.brands {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+
+    margin-bottom: 85px;
+}
+
+.brands div {
+    height: 70px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+    transition: 2s;
+}
+
+/* .brands div:hover {
+    transition: 2s;
+} */

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* position:static -  Элементы отображаются как обычно. 
+Использование свойств left, top, right, bottom и z-index 
+не приводит к каким-либо результатам. */
+
+/* position:reletive -  Положение элемента устанавливается относительно его исходного положения в коде. 
+Добавление свойств left, top, right и bottom изменяет позицию элемента и
+ сдвигает его в ту или иную сторону от первоначального расположения. */
+
+/*z-index - Это свойство работает только для элементов, у которых значение position задано как absolute, fixed или relative.
+Каждый элемент может находиться как ниже, так и выше других объектов веб-страницы, их размещением по z-оси и управляет z-index.*/
+
+.block {
+    border: 5px solid mediumblue;
+    width: 600px;
+    margin: 0 auto;
+    height: 1000px;
+    position: relative;
+}
+
+.block div {
+    font-weight: bold;
+    font-style: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.block_1 {
+    background-color: mediumvioletred;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.block_2 {
+    background-color: mediumorchid;
+    /* position: relative;
+    left: 50px;
+    top: 60px;
+    z-index: 0; */
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; */
+    position: sticky;
+    top: 0;
+}
+
+.block_3 {
+    background-color: mediumspringgreen;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.block_5 {
+    background-color: rgb(141, 133, 138);
+    position: sticky;
+    top: 0;
+}

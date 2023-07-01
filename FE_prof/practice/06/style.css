@@ -1,0 +1,11 @@
+html{
+    /* width: 1920px; */
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    background-color: aqua;
+    padding: 29px 198px;
+    gap: 250px;
+}

@@ -1,0 +1,21 @@
+.word {
+  /* width: 200px; */
+
+  padding: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  cursor: pointer;
+  position: relative;
+}
+
+.word_delete {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

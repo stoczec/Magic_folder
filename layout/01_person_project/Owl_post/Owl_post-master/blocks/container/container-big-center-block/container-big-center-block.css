@@ -1,0 +1,8 @@
+.container-big-center-block.block {
+    max-width: 1400px;
+    margin: 54px auto 162px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

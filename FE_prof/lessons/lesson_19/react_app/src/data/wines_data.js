@@ -1,0 +1,42 @@
+export const wine = [
+    {
+        winery: 'Ernesto Ruffo',
+        wine: 'Amarone della Valpolicella Riserva N.V.',
+        rating: { average: '4.9', reviews: '75 ratings' },
+        location: 'Italy\n·\nAmarone della Valpolicella',
+        image: 'https://images.vivino.com/thumbs/nC9V6L2mQQSq0s-wZLcaxw_pb_x300.png',
+        id: 1,
+    },
+    {
+        winery: 'Cartuxa',
+        wine: 'Pêra-Manca Tinto 1990',
+        rating: { average: '4.9', reviews: '72 ratings' },
+        location: 'Portugal\n·\nAlentejo',
+        image: 'https://images.vivino.com/thumbs/L33jsYUuTMWTMy3KoqQyXg_pb_x300.png',
+        id: 2,
+    },
+    {
+        winery: 'Schrader',
+        wine: 'Cabernet Sauvignon RBS Beckstoffer To Kalon Vineyard 2015',
+        rating: { average: '4.9', reviews: '72 ratings' },
+        location: 'United States\n·\nOakville',
+        image: 'https://images.vivino.com/thumbs/GpcSXs2ERS6niDxoAsvESA_pb_x300.png',
+        id: 3,
+    },
+    {
+        winery: 'Hundred Acre',
+        wine: 'Wraith Cabernet Sauvignon 2013',
+        rating: { average: '4.9', reviews: '68 ratings' },
+        location: 'United States\n·\nNapa Valley',
+        image: 'https://images.vivino.com/thumbs/PBhGMcRNQ7aVnVNr7VgnWA_pb_x300.png',
+        id: 4,
+    },
+    {
+        winery: 'Sine Qua Non',
+        wine: 'Ratsel Syrah N.V.',
+        rating: { average: '4.9', reviews: '68 ratings' },
+        location: 'United States\n·\nCalifornia',
+        image: 'https://images.vivino.com/thumbs/ZzMKzqFqRO-6oI3ys3gGgQ_pb_x300.png',
+        id: 5,
+    },
+];

@@ -1,0 +1,19 @@
+.card__item {
+    border: 3px solid rgb(41, 128, 185);
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.card__item a {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}

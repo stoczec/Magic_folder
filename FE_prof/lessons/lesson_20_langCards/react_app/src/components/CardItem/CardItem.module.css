@@ -1,0 +1,9 @@
+.card__item {
+    border: 3px solid rgb(41, 128, 185);
+    border-radius: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

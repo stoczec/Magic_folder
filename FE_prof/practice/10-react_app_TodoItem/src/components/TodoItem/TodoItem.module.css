@@ -1,0 +1,23 @@
+.todo__item {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+.item__id {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.item__text {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}

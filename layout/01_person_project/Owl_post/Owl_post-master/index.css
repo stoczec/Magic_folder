@@ -1,0 +1,19 @@
+@import "blocks/page/page.css";
+@import "blocks/header/header.css";
+@import "blocks/container/container.css";
+@import "blocks/container/container-banner/container-banner.css";
+@import "blocks/container/container-banner/banner-top/banner-top.css";
+@import "blocks/container/container-carousel/container-carousel.css";
+@import "blocks/container/container-big-center-block/container-big-center-block.css";
+@import "blocks/container/container-big-center-block/block-left/block-left.css";
+@import "blocks/container/container-big-center-block/block-right/block-right.css";
+@import "blocks/container/container-big-center-block/block-center/block-center.css";
+@import "blocks/container/container-advantages/container-advantages.css";
+@import "blocks/container/container-banner/banner-bottom/banner-bottom.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+:root {
+    --num: 1920;
+}
+
+.new_arrivals {
+    padding-top: calc((180vw * 100) / (var(--num)));
+    padding-right: calc((30vw * 100) / (var(--num)));
+    padding-bottom: calc((180vw * 100) / (var(--num)));
+    padding-left: calc((30vw * 100) / (var(--num)));
+}
+
+.new_arrivals__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.new_arrivals__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1e212c;
+}
+
+.new_arrivals__text,
+.new_arrivals__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #787a80;
+}
+
+.new_arrivals__link {
+    margin-bottom: 60px;
+}
+
+.new_arrivals__cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.season_offers {
+    display: grid;
+    gap: 16;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 500px);
+}
+
+.season_offers div:nth-child(1) {
+    background-image: url(./img/image.png);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / span 2;
+}
+.season_offers div:nth-child(2) {
+    background-image: url(./img/image1.png);
+    background-position: center;
+    background-size: cover;
+    grid-column: 3 / span 3;
+}
+.season_offers div:nth-child(3) {
+    background-image: url(./img/image2.png);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / span 3;
+}
+.season_offers div:nth-child(4) {
+    background-image: url(./img/background.png);
+    background-position: center;
+    background-size: cover;
+    grid-column: 4 / span 2;
+}

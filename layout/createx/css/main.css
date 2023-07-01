@@ -1,0 +1,118 @@
+.main {
+    background-image: url(../img/main/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main__container {
+    padding: 140px 0 180px 0;
+}
+
+.main__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e212c;
+}
+
+.main__title {
+    margin-top: 12px;
+
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1e212c;
+}
+
+.main__buttons {
+    margin-top: 60px;
+
+    display: flex;
+    gap: 24px;
+}
+
+.main__buttons a {
+    background-color: transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #17696a;
+    padding: 0 40px;
+    border: 1px solid #17696a;
+}
+
+.main__buttons a:hover {
+    background: #17696a;
+    color: #ffffff;
+}
+
+.main__menswear_btn:hover {
+    background: transparent;
+    color: #17696a;
+    border: 1px solid #17696a;
+}
+
+.main__slider {
+    margin-top: 180px;
+
+    display: flex;
+    gap: 4px;
+}
+
+.slider > div {
+    width: 178px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #424551;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #424551;
+}
+
+/* ---------- ARROWS ---------- */
+
+.main__arrow_left,
+.main__arrow_right {
+    width: 48px;
+    height: 48px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.main__arrow_left {
+    position: absolute;
+    top: 376px;
+    left: 32px;
+}
+.main__arrow_right {
+    position: absolute;
+    top: 376px;
+    right: 32px;
+}
+
+.main__arrow_left:hover,
+.main__arrow_right:hover {
+    opacity: 1;
+    transition: 0.5s;
+}

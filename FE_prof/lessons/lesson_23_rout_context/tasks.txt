@@ -1,0 +1,14 @@
+1. Создать MainPage, ConfigurationsPage, TeamsPage
+2. Настроить между страницами роутинг
+3. Создать NavMenu (Configurations, Teams). встроить компонент в роутинг
+4. При клике на Configurations и Teams перенаправлять по соответствующему роуту
+5. Создать форму AddTeamForm. Импортировать в ConfigurationsPage. При сабмите формы данные из инпута собираются и выводятся в консоль
+6. Стилизовать форму
+7. Создать форму AddPlayerForm. Импортировать в ConfigurationsPage.
+8. Создать состояние teams(+setTeams)
+9. Создать функцию add_team
+10. С помощью контекста закинуть teams и add_team в нужные компоненты
+11. При сабмите формы AddPlayerForm данные из инпута собираются, формируется объект (id, player, team) и выводится объект в консоль
+14. Создать PlayersContainer и Player. PlayersContainer импортировать в TeamsPage
+15. В PlayersContainer из состояния players отрисовать карточки игроков Player (player, team)
+16. Реализовать удаление карточки пользователя по клику на нее

@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: League Spartan, serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #161515;
+}
+
+._container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* HEADER */
+
+.header {
+    padding: 0 105px 175px 0;
+    background: #f8f8f8;
+    display: flex;
+}
+
+.header__block {
+}
+
+.header__block h6 {
+    font-size: 24px;
+    line-height: 186%;
+    margin-bottom: 55px;
+}
+
+.header__block h1 {
+    font-size: 250px;
+    line-height: 230px;
+    color: #272727;
+    margin-bottom: 45px;
+}
+
+.header__block p {
+    line-height: 155%;
+    margin-bottom: 60px;
+}
+
+.header__price {
+    display: flex;
+}
+
+.header__price a {
+    text-decoration: none;
+    padding: 30px 75px;
+    background: #161515;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.header__price div {
+    background: #ffffff;
+    box-shadow: 0px 0px 28px rgba(214, 214, 214, 0.25);
+    line-height: 186%;
+    color: #272727;
+    width: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+.main__container {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.main {
+    padding: 45px 0 145px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h6 {
+    font-size: 24px;
+    line-height: 186%;
+    color: #000000;
+}
+
+.main h2 {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112.5%;
+    color: #000000;
+    margin-bottom: 84px;
+}
+
+.main div {
+    width: 500px;
+    height: 630px;
+    background: #f8f8f8;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0;
+}
+
+.main h3 {
+    font-weight: 400;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.main p {
+    line-height: 155%;
+    margin-bottom: 85px;
+}
+
+.main h4 {
+    font-weight: 400;
+    line-height: 186%;
+    text-transform: capitalize;
+}
+
+.main hr {
+    width: 180px;
+    border: 1px solid #707070;
+    margin-bottom: 50px;
+}
+
+.main p:has(a) {
+    font-size: 24px;
+    line-height: 170%;
+}
+
+.main p a {
+    text-decoration: none;
+    color: #bb8b5d;
+    font-size: 24px;
+    line-height: 170%;
+}

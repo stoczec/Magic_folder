@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://picsum.photos/seed/picsum/300/300);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/* .block1 p {
+    color: mediumspringgreen;
+}
+
+div p {
+    color: mediumorchid;
+}
+
+.block1 .p1{
+    color: blue;
+} */
+/* body {
+    margin: 0;
+} */
+.block4 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid mediumvioletred;
+    border-radius: 50%;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+
+    box-shadow: 20px 30px 40px 7px gray;
+}
+
+.block5 {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.block6 {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.block7 {
+    width: 300px;
+    height: 300px;
+
+    background-size: auto;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+}

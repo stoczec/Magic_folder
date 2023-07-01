@@ -1,0 +1,57 @@
+body {
+    background-image: url(/fe_hw_first/img/background.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.img {
+    width: 500px;
+}
+
+.block_first,
+.block_second,
+.block_third {
+    margin: 15px;
+    padding: 15px;
+    border: 10px groove;
+}
+
+/* Фон основных блоков */
+.block_first {
+    background-color: aquamarine;
+}
+.block_second {
+    background-color: rgb(247, 225, 230);
+}
+.block_third {
+    background-color: blanchedalmond;
+}
+
+/* Блок с соцсетями */
+.links {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: 10px groove;
+}
+.links > a > img {
+    width: 25px;
+}

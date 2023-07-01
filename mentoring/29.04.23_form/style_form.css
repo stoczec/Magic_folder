@@ -1,0 +1,85 @@
+body {
+    background-color: lightgray;
+}
+
+.form {
+    background-color: white;
+    padding: 21px 32px 32px 32px;
+    margin: 100px auto;
+    width: 420px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08),
+        0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+}
+
+.container {
+    width: 356px;
+}
+
+.form a {
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    text-decoration: none;
+    color: black;
+}
+
+.form h1 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.form input {
+    padding: 14px 0 14px 16px;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #ffe44d;
+}
+
+.email {
+    margin-bottom: 8px;
+}
+
+.form input ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7b8e98;
+}
+
+.form p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7b8e98;
+}
+
+button {
+    border: 1px solid #cfd8dc;
+    border-radius: 87px;
+    padding: 14px 24px;
+    background-color: #fff;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+.form :nth-child(6) {
+    margin-bottom: 8px;
+}
+
+button:hover {
+    background-color: #ffe44d;
+}

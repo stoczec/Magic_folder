@@ -1,0 +1,27 @@
+1. Создать PostItem и PostsContainer
+2. PostsContainer импортировать в App
+3. В App создать состояние posts(+setPosts)
+4. Поместить в состояние posts данные из массива posts_data => вывести posts в консоль
+5. Из состояния posts отрисовать карточки (title, description, like)
+6. Написать функцию change_like
+7. Создать AddPostForm (два инпута + кнопка). При сабмите форма собирает данные, формирует из них объект и выводит объект в консоль
+
+пример объекта:
+{
+  id: уникальный,
+  title: из инпута,
+  description: из инпута,
+  like: false,
+  comments: []
+}
+
+8. AddPostForm импортировать в App
+9. Написать функцию add_post
+10. Создать компоненты CommentsContainer и CommentItem
+11. Импортировать CommentsContainer в PostItem
+12. Из массива comments отрисовать CommentItem в CommentsContainer
+13. Написать функцию delete_comment, вызвать ее при клике на комментарий
+14. Создать AddCommentForm (инпут + кнопка)
+15. Импортировать AddCommentForm в CommentsContainer
+16. При сабмите форма собирает данные, формирует объект и выводит его в 
+17. Написать функцию add_comment

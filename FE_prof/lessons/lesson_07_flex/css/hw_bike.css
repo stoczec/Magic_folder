@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+@media (min-width: 1441px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+/* block1*/
+.block1 {
+    width: 100%;
+    background: #f4f9e2;
+}
+/*Header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2% 9.25% 8.75% 11.6%;
+}
+
+.header__logo {
+    width: 11%;
+}
+
+.header__logo img {
+    width: 100%;
+}
+
+.header__menu {
+    width: 22%;
+}
+
+.menu {
+    margin: auto 0;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+a:hover {
+    border-bottom-color: black;
+}
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.button {
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    border: none;
+    background: #f9b640;
+    border-radius: 50px;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+
+    color: #ffffff;
+}
+/*section*/
+
+.block1-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 8.75% 9.25% 6% 11.6%;
+}
+.block1-section-text {
+    width: 59%;
+}
+
+.block1-section-text__title {
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 3vw;
+    letter-spacing: -0.035em;
+    margin: 5% 0 5%;
+
+    color: #22356f;
+}
+
+.block1-section-text_paragraph {
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3.5vw;
+
+    color: #22356f;
+}
+
+.block1-section-image {
+    width: 40%;
+}
+.block1-section-image img {
+    width: 100%;
+}
+/*block2*/
+.block2-section {
+    display: flex;
+}
+
+.block2-section-text {
+    width: 75%;
+    background: #62d0df;
+}
+
+.block2-section-text__title {
+    width: 33.5%;
+    margin: 12.1% 35% 2.5% 16.5%;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    letter-spacing: -0.006em;
+
+    color: #ffffff;
+}
+
+.block2-section-text_paragraph {
+    width: 54.25%;
+    margin: 0 14.8% 11.85% 15.85%;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    text-align: justify;
+
+    color: #ffffff;
+}
+
+.block2-section-image {
+    width: 25%;
+}
+
+.block2-section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*block3*/
+
+.block3 {
+    width: 100%;
+}
+
+.block3__section {
+    width: 51.4%;
+    margin: 17.5% 21.1% 12.3% 27.6%;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.005em;
+
+    color: #22356f;
+}
+
+/*bock4*/
+
+.block4 {
+    width: 100%;
+    display: flex;
+}
+
+.block4-section {
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block4-section__border {
+    width: 70.85%;
+    height: 6vw;
+    margin: 0 auto 6.25%;
+    border-bottom: 1px solid white;
+}
+
+.block4-section__text {
+    min-height: 15%;
+    margin: 0 46.45% 58.75% 14.6%;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2vw;
+    letter-spacing: -0.006em;
+
+    color: #ffffff;
+}
+
+.s1-bckgclr {
+    background-color: #22356f;
+}
+.s2-bckgclr {
+    background-color: #0052c1;
+}
+.s3-bckgclr {
+    background-color: #76b58b;
+}
+/*block5*/
+.block5-section {
+    display: flex;
+}
+
+.block5-section-image {
+    width: 45.45%;
+}
+
+.block5-section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block5-section-paragraph {
+    width: 55.55%;
+    margin: 16.8% 3.95% 16.9% 4.65%;
+
+    font-family: "ABeeZee";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 4vw;
+    letter-spacing: -0.01em;
+
+    color: #22356f;
+}

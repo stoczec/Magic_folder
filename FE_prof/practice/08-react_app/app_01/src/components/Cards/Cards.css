@@ -1,0 +1,13 @@
+.App {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}

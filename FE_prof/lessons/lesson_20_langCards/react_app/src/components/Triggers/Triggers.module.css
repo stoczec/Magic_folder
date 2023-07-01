@@ -1,0 +1,17 @@
+.triggers {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.triggers a {
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

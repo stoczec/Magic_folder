@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cards</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header__button">
+                    <button
+                        class="header__button-generate button"
+                        id="button-generate"
+                    >
+                        Generate new question
+                    </button>
+                    <button class="header__button-refresh button">
+                        Refresh
+                    </button>
+                </div>
+                <div class="header__button">
+                    <button class="header__button-ru button" id="button-ru">
+                        RU
+                    </button>
+                    <button class="header__button-en button" id="button-en">
+                        EN
+                    </button>
+                    <button
+                        class="header__button-ru-en button"
+                        id="button-ru-en"
+                    >
+                        RU/EN
+                    </button>
+                </div>
+                <div class="header__counters counters">
+                    <p id="counters__all"></p>
+                    <p id="counters__htmlRu"></p>
+                    <p id="counters__htmlEn"></p>
+                    <p id="counters__cssRu"></p>
+                    <p id="counters__cssEn"></p>
+                    <p id="counters__jsRu"></p>
+                    <p id="counters__jsEn"></p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="logos">
+                    <div class="logos__HTML logo" id="logos__HTML"></div>
+                    <div class="logos__CSS logo" id="logos__CSS"></div>
+                    <div class="logos__JS logo" id="logos__JS"></div>
+                </div>
+
+                <div class="cards" id="cards">
+                    <div class="cardsRu" id="cardsRu">
+                        <div class="cardsRu__questionRu card" id="questionRu">
+                            Вопрос
+                        </div>
+                        <div class="cardsRu__answerRu card" id="answerRu">
+                            Ответ
+                        </div>
+                    </div>
+                    <div class="cardsEn" id="cardsEn">
+                        <div class="cardsEn__questionEn card" id="questionEn">
+                            Question
+                        </div>
+                        <div class="cardsEn__answerEn card" id="answerEn">
+                            Answer
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pseudoDiv"></div>
+        </div>
+
+        <!-- <script src="./js/BD_RU.js"></script> -->
+        <script src="./js/BD_RU_HTML.js"></script>
+        <script src="./js/BD_RU_CSS.js"></script>
+        <script src="./js/BD_RU_JS.js"></script>
+        <script src="./js/BD_EN_HTML.js"></script>
+        <script src="./js/BD_EN_CSS.js"></script>
+        <script src="./js/BD_EN_JS.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

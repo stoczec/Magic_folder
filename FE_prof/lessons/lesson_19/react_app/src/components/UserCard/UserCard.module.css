@@ -1,0 +1,17 @@
+.user__card {
+    border: 2px dashed black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    width: clamp(150px, 55vw, 250px);
+    margin: clamp(10px, 5vw, 20px);
+}
+
+img {
+    width: clamp(100px, 50vw, 200px);
+    border-radius: 20px;
+}

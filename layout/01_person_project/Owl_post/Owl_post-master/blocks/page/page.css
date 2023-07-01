@@ -1,0 +1,8 @@
+.page {
+    background-image: url(/Owl_post-master/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+    font-family: "Gilroy";
+}

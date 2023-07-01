@@ -1,0 +1,12 @@
+.userCard {
+    border: 2px dashed black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.studentCard{
+    border: 2px dashed black;
+    padding: 10px;
+    width: 150px;
+}

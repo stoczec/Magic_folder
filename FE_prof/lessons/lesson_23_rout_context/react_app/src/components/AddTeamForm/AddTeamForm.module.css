@@ -1,0 +1,28 @@
+.add_team_form {
+  border: 2px solid green;
+  padding: 30px;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add_team_form input {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.add_team_form button {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}

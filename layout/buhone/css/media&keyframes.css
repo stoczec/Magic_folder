@@ -1,0 +1,220 @@
+/*==========KEYFRAMES==========*/
+
+/*==========MEDIA==========*/
+
+/*---------- 1200px ----------*/
+@media (max-width: 1200px) {
+    /* ._container {
+        max-width: 900px;
+    } */
+    /* ========== HEADER ========== */
+    .header__container {
+        position: relative;
+    }
+
+    .header__menu {
+        flex-direction: column;
+        gap: 15px;
+        position: absolute;
+        top: 150%;
+        right: -100%;
+        transition: 1.5s;
+    }
+
+    .header__menu.active {
+        right: 0;
+        transition: 1s;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        right: 5%;
+    }
+    /* ========== ABOUT US ========== */
+    .about_us__cards {
+        grid-template-columns: repeat(2, 200px);
+        gap: 30px;
+    }
+}
+/*---------- 967px ----------*/
+@media (max-width: 1200px) {
+    /* ._container {
+        max-width: 700px;
+    } */
+    /* ========== HEADER ========== */
+    .header__menu {
+        flex-direction: row;
+        gap: 15px;
+        position: absolute;
+        top: 150%;
+        right: -100%;
+        transition: 1.5s;
+    }
+    /* ========== OUR SPECIALTY ========== */
+    .our_specialty__cards {
+        gap: 15px;
+    }
+    /* ========== ABOUT US ========== */
+    .about_us__container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about_us__cards {
+        grid-template-columns: repeat(1, 100%);
+        gap: 30px;
+    }
+    .about_us__card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 33px 40px;
+    }
+    .card_todo__count,
+    .card_todo__title,
+    .card_todo__link,
+    .about_us__text {
+        padding: 0;
+    }
+    /* ========== CONTACT US ========== */
+    .contact_us_container {
+        flex-direction: column;
+    }
+    .contact_us__phone_email {
+        justify-content: start;
+        gap: 45px;
+    }
+    .form__firstname,
+    .form_secondname {
+        width: 295px;
+    }
+    .form__message {
+        width: 625px;
+    }
+
+    .form__btn {
+        left: 50%;
+    }
+}
+/*---------- 767px ----------*/
+@media (max-width: 767px) {
+    /* ._container {
+        max-width: 500px;
+    } */
+    /* ========== HEADER ========== */
+
+    .header__menu {
+        right: -130%;
+    }
+    /* ========== OUR SPECIALTY ========== */
+
+    .our_specialty__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .our_specialty__card p {
+        margin-top: calc((780vw * 100) / (var(--num)));
+        margin-right: calc((318vw * 100) / (var(--num)));
+        margin-bottom: calc((135vw * 100) / (var(--num)));
+        margin-left: calc((135vw * 100) / (var(--num)));
+    }
+    /* ========== CONTACT US ========== */
+    .form__firstname,
+    .form_secondname {
+        width: 235px;
+    }
+    .form__message {
+        width: 500px;
+    }
+    .form__btn {
+        left: 45%;
+    }
+}
+/*---------- 567px ----------*/
+
+@media (max-width: 567px) {
+    /* ._container {
+        max-width: 320px;
+    } */
+    /* ========== HEADER ========== */
+
+    .header__menu {
+        gap: 10px;
+        flex-direction: column;
+        right: -200%;
+    }
+    .header__menu.active {
+        top: 110%;
+        right: -8%;
+    }
+    .header__menu li {
+        font-size: 12px;
+    }
+    /* ========== OUR SPECIALTY ========== */
+
+    .our_specialty {
+        padding-top: calc((240vw * 100) / (var(--num)));
+    }
+    .our_specialty__title {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 39px;
+        font-family: 'Merriweather';
+        color: #333333;
+
+        margin-bottom: calc((100vw * 100) / (var(--num)));
+    }
+    /* ========== ABOUT US ========== */
+    .about_us__title {
+        font-size: 40px;
+        line-height: 49px;
+    }
+    /* ========== CONTACT US ========== */
+    .contact_us__title {
+        font-size: 40px;
+        line-height: 59px;
+    }
+    .contact_us__phone_email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__firstname,
+    .form_secondname {
+        width: 145px;
+    }
+    .form__message {
+        width: 320px;
+    }
+    .form__btn {
+        left: 10%;
+    }
+    /* ========== FOOTER ========== */
+    .footer__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+/*---------- 367px ----------*/
+
+@media (max-width: 367px) {
+    /* ._container {
+        max-width: 300px;
+    } */
+    /* ========== HEADER ========== */
+    .header__menu {
+        gap: 10px;
+    }
+    /* ========== CONTACT US ========== */
+
+    .form__firstname,
+    .form_secondname {
+        width: 135px;
+    }
+    .form__message {
+        width: 300px;
+    }
+}

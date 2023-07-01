@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 500px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    box-shadow: 5px -2px 10px 1px gray;
+    
+}
+
+.text p {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.back{
+    background-image:url(../img/D231E27A-B20F-4C60-A401-699CF1F35351.jpg);
+    background-size: 10%;
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    background-position: right;
+}

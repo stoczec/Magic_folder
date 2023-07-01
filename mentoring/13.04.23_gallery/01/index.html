@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gallery</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery__content"></div>
+                <div class="gallery__buttons">
+                    <div>
+                        <button class="gallery__buttons-previous">
+                            Previous
+                        </button>
+                    </div>
+                    <div>
+                        <button class="gallery__buttons-next">Next</button>
+                    </div>
+                    <div>
+                        <button class="gallery__buttons-add">Add image</button>
+                    </div>
+                    <div>
+                        <button class="gallery__buttons-delete">
+                            Delete image
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- SUB_BLOCK ========== MODAL WINDOW ========== -->
+            <div class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <form class="image__form">
+                            <p class="form__cross">X</p>
+                            <input
+                                type="text"
+                                placeholder="Image url"
+                                name="url"
+                            />
+                            <input
+                                type="text"
+                                placeholder="Image description"
+                                name="description"
+                            />
+                            <button class="add__btn">Add image</button>
+                            <!-- <button class="close__btn">Close window</button> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

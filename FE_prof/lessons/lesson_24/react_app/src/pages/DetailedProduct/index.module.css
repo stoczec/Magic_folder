@@ -1,0 +1,20 @@
+.DetailedProduct {
+  width: 80%;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.DetailedProduct_back {
+  background-color: firebrick;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}

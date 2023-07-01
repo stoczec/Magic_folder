@@ -1,0 +1,39 @@
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+.blocks {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transition-duration: 2s;
+}
+
+.block1 {
+    background-color: red;
+    z-index: 1;
+}
+
+.block2 {
+    background-color: green;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+.block3 {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.block2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+    transition-duration: 1s;
+}

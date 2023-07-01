@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* position: absolute; */
+    background: #f8f8f8;
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    padding: 4px 133px 168px 240px;
+}
+.watch {
+    position: absolute;
+    width: 408px;
+    height: 720px;
+    margin-top: 4px;
+    margin-right: 240px;
+    margin-bottom: 176px;
+    margin-left: 792px;
+}
+.name_developer {
+    position: absolute;
+    margin-left: 133px;
+    margin-top: 104px;
+    margin-right: 1172px;
+    margin-bottom: 764px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 186%;
+}
+.name_watch {
+    display: flex;
+    position: absolute;
+    margin-top: 189px;
+    margin-right: 430px;
+    margin-bottom: 496px;
+    margin-left: 133px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 250px;
+    line-height: 230px;
+}
+.text_info {
+    display: flex;
+
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 155%;
+    margin-top: 447px;
+    margin-right: 730px;
+    margin-bottom: 311px;
+    margin-left: 135px;
+
+    text-align: justify;
+}
+.swich_buy_watch {
+    display: flex;
+    position: absolute;
+
+    color: #ffffff;
+    margin-top: 676px;
+    margin-right: 1101px;
+    margin-bottom: 208px;
+    margin-left: 208px;
+
+    background-color: #161515;
+    padding-top: 26px;
+    padding-right: 74px;
+    padding-bottom: 35px;
+    padding-left: 73px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 29px;
+}
+.price {
+    display: flex;
+    position: absolute;
+    margin-top: 663px;
+    margin-right: 911px;
+    margin-bottom: 199px;
+    margin-left: 441px;
+    padding-top: 13px;
+    padding-right: 27px;
+    padding-bottom: 31px;
+    padding-left: 28px;
+    background-color: #ffffff;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 186%;
+}
+main {
+    /* position: absolute; */
+    background: #f8f8f8;
+    display: flex;
+    width: 1440px;
+    /* height: 93629px; */
+    left: 0px;
+    top: 0px;
+    padding: 43px 454px 142px 455px;
+}
+.pop {
+    display: flex;
+    margin-top: 43px;
+    margin-right: 648px;
+    /* margin-bottom: 2645px; */
+    margin-left: 621px;
+}

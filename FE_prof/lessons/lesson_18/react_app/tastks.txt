@@ -1,0 +1,26 @@
+1. Создать компонент ClothesItem (title, size, price)
+2. В App создать три ClothesItem, данные передать через пропсы
+3. Создать массив с объектами, где каждый объект - это описание одного товара. 
+На основе этого массива создать карточки товаров
+4. Вывести карточки только тех товаров, цена которых больше 30
+5. Создать компонент ClothesContainer и переместить процесс создания карточек в него.
+ Импортировать ClothesContainer в App
+ 6. Создать компоненты CountriesContainer и CountryItem
+7. Импортировать CountriesContainer в ClothesItem
+8. С помощью пропсоа закинуть свойство countries в компонент CountriesContainer
+9. В компоненте CountriesContainer создать компоненты Country
+11. Создать компоненты TaskItem и TasksContainer
+12. Импортировать TasksContainer в App
+13. Импортировать tasks_data в TasksContainer
+14. В TasksContainer для каждой задачи (объекта массива) создать TaskItem (title)
+ДЗ
+15. Добавить в TaskItem параграф Status. Если задача выполнена (completed: true), 
+тогда в статус вписать сообщение done. Если задача не выполнена (completed: false), 
+тогда в статус вписать сообщение not done
+27/04/2023
+1. Создать компоненты Comment и CommentsContainer
+2. Импортировать CommentsContainer в App
+3. В CommentsContainer отрисовать карточки комментариев (Comment) - name. email, body
+4. Стилизовать карточки через модульные стили (border, border-radius, padding)
+5. Стилизовать контейнер - сделать грид 4 колонки
+6. Если name начинается на букву e, то покрасить задний фон карточки в светло-голубой, в ином случае в светло-зеленый

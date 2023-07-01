@@ -1,0 +1,98 @@
+.tables {
+    display: flex;
+    max-width: 100%;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.main_table_1,
+.main_table_2,
+.main_table_3 {
+    margin: 0 10px;
+}
+/* Table 1 */
+
+.table_1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table_1 th,
+td {
+    border: 1px solid black;
+}
+
+.caption_table_1 {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Table 2 */
+
+.table_2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table_2 th,
+td {
+    border: 1px solid black;
+}
+
+.caption_table_2 {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.table_2 tr:nth-child(4n + 1) {
+    background-color: blue;
+}
+
+.table_2 tr:nth-child(4n + 2) {
+    background-color: rgb(54, 54, 233);
+}
+
+.table_2 tr:nth-child(4n + 3) {
+    background-color: rgb(94, 94, 226);
+}
+
+.table_2 tr:nth-child(4n + 4) {
+    background-color: rgb(152, 152, 240);
+}
+
+/* Table 3 */
+
+.table_3 {
+    border: 2px solid #b2a8b2;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+.caption_table_3 {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.table_3 tr:nth-child(1) {
+    background-color: #ddca7b;
+}
+
+.table_3 tr {
+    width: 50px;
+    height: 50px;
+}
+
+.table_3 th,
+.table_3 td {
+    padding: 5px;
+    border: 2px dotted #b2a8b2;
+}
+
+.total {
+    text-align: right;
+}

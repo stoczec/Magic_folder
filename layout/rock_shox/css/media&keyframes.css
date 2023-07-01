@@ -1,0 +1,340 @@
+/*==========KEYFRAMES==========*/
+@keyframes gradient {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 0.15;
+    }
+    33% {
+        opacity: 0.35;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    66% {
+        opacity: 0.65;
+    }
+    82% {
+        opacity: 0.85;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes unslide {
+    0% {
+        opacity: 1;
+    }
+    16% {
+        opacity: 0.85;
+    }
+    33% {
+        opacity: 0.65;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    66% {
+        opacity: 0.35;
+    }
+    82% {
+        opacity: 0.15;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*==========MEDIA==========*/
+/*---------- 1600px ----------*/
+@media (max-width: 1600px) {
+    /*==========TITLE==========*/
+    .header__title h1 {
+        font-size: 58px;
+    }
+
+    /*==========ACTIVITY==========*/
+    .activity {
+        gap: 50px;
+    }
+    .activity__img {
+        width: 400px;
+        height: 370px;
+    }
+    .activity__title {
+        font-size: 40px;
+    }
+    .activity__text {
+        font-size: 14px;
+    }
+    /*==========PROFESSION==========*/
+
+    .profession__cards {
+        gap: 30px;
+    }
+
+    .cards__title {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+
+    /*==========PARTNERS==========*/
+
+    .partners__logos {
+        justify-content: space-between;
+
+        gap: 40px;
+    }
+    .partners__logos img {
+        width: 170px;
+        height: 200px;
+        object-fit: contain;
+    }
+    /*==========FOOTER==========*/
+    .footer__btn,
+    .footer__email::placeholder {
+        font-size: 16px;
+    }
+}
+/*---------- 1200px ----------*/
+@media (max-width: 1200px) {
+    /*==========MENU==========*/
+
+    .menu__list {
+        gap: 20px;
+    }
+
+    .menu__list li {
+        font-size: 16px;
+    }
+    /*==========TITLE==========*/
+
+    .header__title h1 {
+        font-size: 50px;
+    }
+
+    /*==========ORDER==========*/
+
+    .header__students {
+        gap: 50px;
+    }
+    .students {
+        gap: 40px;
+    }
+    .students__text,
+    .count {
+        font-size: 18px;
+    }
+    /*==========ACTIVITY==========*/
+    .activity {
+        display: flex;
+        gap: 50px;
+    }
+    .activity__title {
+        font-size: 30px;
+    }
+    /*==========PROFESSION==========*/
+
+    .profession__title {
+        font-size: 40px;
+    }
+    /*========== PARTNERS ==========*/
+    .partners {
+        gap: 70px;
+    }
+    .partners__logos {
+        gap: 10px;
+    }
+}
+/*---------- 992px ----------*/
+@media (max-width: 992px) {
+    /*==========MENU==========*/
+    .menu__list {
+        gap: 5px;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: -160px;
+        width: 110px;
+        transition-duration: 1.5s;
+    }
+    .menu__list.active {
+        transform: translateX(-210px);
+        transition-duration: 1.5s;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .header__burger.active {
+        transform: rotate(-45deg);
+        transition-duration: 1.5s;
+    }
+    /*==========ORDER==========*/
+
+    .header__order {
+        gap: 40px;
+    }
+    .order__btn,
+    .students__text,
+    .count {
+        font-size: 14px;
+    }
+    .header__students {
+        gap: 30px;
+    }
+    /*========== ACTIVITY ==========*/
+    .activity {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    .activity__img {
+        order: 2;
+    }
+    .activity__block {
+        order: 1;
+    }
+
+    .activity__title {
+        margin-right: 100px;
+        font-size: 48px;
+    }
+    .activity__text {
+        text-align: justify;
+    }
+    /*==========PROFESSION==========*/
+    .profession__cards {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .card {
+        width: 100%;
+    }
+    .cards__text {
+        text-align: justify;
+        padding-right: calc((30vw * 100) / (var(--num)));
+        padding-left: calc((30vw * 100) / (var(--num)));
+    }
+    /*==========TEACHERS==========*/
+
+    .teachers__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .teacher__card {
+        width: 47%;
+    }
+
+    .biography,
+    .teacher__biography-visible {
+        visibility: visible;
+    }
+
+    .teacher__third {
+        /* margin: 20px auto; */
+    }
+    /*==========FOOTER==========*/
+    .footer {
+        padding-right: calc((68vw * 100) / (var(--num)));
+        padding-left: calc((68vw * 100) / (var(--num)));
+    }
+
+    .footer__text {
+        margin-right: calc((375vw * 100) / (var(--num)));
+        margin-left: calc((375vw * 100) / (var(--num)));
+    }
+    .footer__email {
+        width: calc((1000vw * 100) / (var(--num)));
+        height: calc((135vw * 100) / (var(--num)));
+    }
+    .footer__btn {
+        height: calc((135vw * 100) / (var(--num)));
+        padding-top: calc((36vw * 100) / (var(--num)));
+        padding-right: calc((90vw * 100) / (var(--num)));
+        padding-bottom: calc((36vw * 100) / (var(--num)));
+        padding-left: calc((90vw * 100) / (var(--num)));
+        right: calc((90vw * 100) / (var(--num)));
+        top: -6px;
+    }
+}
+/*---------- 767px ----------*/
+@media (max-width: 767px) {
+    /*==========MENU==========*/
+    .header__burger {
+        margin-right: calc((-800vw * 100) / (var(--num)));
+    }
+    .header__title h1 {
+        font-size: 30px;
+    }
+    .header__count {
+        gap: 10px;
+    }
+    /*========== ORDER ==========*/
+    .header__order {
+        gap: 30px;
+    }
+
+    .order__btn,
+    .students__text,
+    .count {
+        font-size: 14px;
+    }
+    .header__students {
+        gap: 10px;
+    }
+    .order__btn {
+        width: 170px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .students {
+        gap: 10px;
+    }
+    
+    /*========== PARTNERS ==========*/
+
+    .partners__logos img {
+        width: 150px;
+        height: 180px;
+    }
+    /*==========FOOTER==========*/
+    .footer__btn {
+        top: -2px;
+    }
+}
+/*---------- 567px ----------*/
+/*========== SEPARATOR ==========*/
+/*---------- SUBSEPARATOR ----------*/
+
+

@@ -1,0 +1,84 @@
+.mobile {
+    background: #1e212c;
+    margin-bottom: 120px;
+}
+
+.mobile__container {
+    padding: 60px 0;
+
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.mobile__image {
+    width: 490px;
+    height: 330px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mobile__side {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.mobile__title {
+    width: 600px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+.mobile__market {
+    width: 600px;
+
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+}
+
+.market__apple {
+    width: 160px;
+    height: 46px;
+    background: #424551;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.market__google {
+    width: 160px;
+    height: 46px;
+    background: #424551;
+    border-radius: 4px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 5px;
+    padding: 8px 11px 7px 12px;
+}
+
+.google__logo {
+    grid-row: 1/3;
+}
+
+.google__subtitle,
+.google__title {
+    grid-column: 2/5;
+    justify-items: start;
+}
+
+.market__apple:hover,
+.market__google:hover{
+    background: #32343d;
+
+}

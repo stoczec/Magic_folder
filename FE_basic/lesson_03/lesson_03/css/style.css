@@ -1,0 +1,39 @@
+ul {
+    list-style: circle outside none;
+    /* list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: none; */
+}
+
+.to_do_list {
+    list-style: upper-roman outside none;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* .first_back,
+.second_back {
+    background-color: rgb(248, 17, 17);
+}
+
+.first_column {
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;
+    width: 15%;
+} */
+
+/* tr:nth-child(odd) {
+    background-color: aquamarine;
+} */
+
+/* Псевдоклассы - описывают различные состояния элементов */

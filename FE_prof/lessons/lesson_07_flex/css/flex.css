@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+}
+
+.menu {
+    width: 310px;
+    height: 15px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu div {
+    background-color: blueviolet;
+    width: 70px;
+    height: 15px;
+    font-style: 15px;
+    text-align-last: center;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 10px;
+}

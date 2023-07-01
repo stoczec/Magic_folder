@@ -1,0 +1,17 @@
+.button {
+    border-radius: 36px;
+    background-color: #00c97b;
+    width: 240px;
+    height: 66px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button__text {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+}

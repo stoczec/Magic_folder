@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container {
+    padding: 20px;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.back_color_block,
+.dice_block {
+    margin: 10px;
+    padding: 10%;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.input_btn{
+    margin-bottom: 20px;
+}

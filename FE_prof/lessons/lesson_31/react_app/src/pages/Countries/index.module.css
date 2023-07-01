@@ -1,0 +1,33 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.eachcountry {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.eachcountry h2 {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.eachcountry h3 :only-child:not(:has(*)) {
+  font-size: large;
+  font-weight: bold;
+}
+
+.eachcountry img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}

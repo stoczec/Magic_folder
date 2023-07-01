@@ -1,0 +1,52 @@
+.block__left.block-left {
+    margin-top: 80px;
+}
+
+.block-left__text {
+    max-width: 400px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #ffffd0;
+
+    margin-bottom: 44px;
+}
+
+.block-left__card {
+    margin-bottom: 167px;
+
+    display: flex;
+
+    background: #f2f6fc30;
+    border-radius: 16px;
+}
+
+.block-left__imageLogo {
+    margin: 0 34px 0 28px;
+}
+
+.block-left__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffd0;
+}
+
+.block-left__price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #ffffd0;
+}
+
+
+.block-left__imageItem {
+    max-width: 110px;
+    max-height: 112px;
+    border-radius: 10%;
+    background: #f2f6fc30;
+}

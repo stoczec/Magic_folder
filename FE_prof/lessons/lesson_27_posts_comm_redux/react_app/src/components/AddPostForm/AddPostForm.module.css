@@ -1,0 +1,20 @@
+.form__card {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.form__card input {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.form__card button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.form__card button:hover {
+  background-color: gray;
+}

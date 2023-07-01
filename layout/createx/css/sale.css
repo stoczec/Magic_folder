@@ -1,0 +1,148 @@
+.sale__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sale__title {
+    display: flex;
+    justify-content: space-between;
+}
+.sale__h2 {
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1e212c;
+    text-align: left;
+}
+
+.sale__arrows {
+    display: flex;
+    align-items: end;
+}
+
+.sale__arrows:has(div) div {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sale__arrows:has(i) i {
+    color: #424551;
+}
+
+.sale__arrows:has(div) div:hover {
+    background-color: var(--accent);
+    transition: 0.3s;
+}
+
+.sale__arrows:has(div) div:hover:has(i) i {
+    color: #ffffff;
+}
+/* ELEM_BLOCK ========== CARDS ========== */
+.sale_cards {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.sale_cards__card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sale_cards__badge {
+    width: 45px;
+    height: 28px;
+
+    background: #ff4242;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: calc(28px + 16px);
+    left: 16px;
+}
+
+.sale_cards__img {
+    width: 390px;
+    height: 440px;
+}
+
+.sale_cards__title {
+    margin: 16px 0 0 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424551;
+    cursor: pointer;
+}
+
+.sale_cards__title:hover {
+    color: var(--accent);
+}
+
+.sale_cards__cost {
+    margin: 16px 0 8px 16px;
+
+    display: flex;
+    gap: 12px;
+}
+
+.sale_cards__discount {
+    color: #ff4242;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+}
+
+.sale_cards__price {
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #787a80;
+}
+
+.sale__button {
+    margin: 80px auto;
+    width: 210px;
+    height: 52px;
+
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+}
+
+.sale__button:hover {
+    color: white;
+    background-color: var(--accent);
+}

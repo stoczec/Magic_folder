@@ -1,0 +1,29 @@
+/* BLOCK ========== IMPORT FONTS ========== */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+/* BLOCK ========== IMPORT CSS ========== */
+@import url(/css/header.css);
+@import url(/css/main.css);
+@import url(/css/catalog.css);
+@import url(/css/arrivals.css);
+@import url(/css/ban.css);
+@import url(/css/categories.css);
+@import url(/css/trending.css);
+@import url(/css/sale.css);
+@import url(/css/mobile.css);
+@import url(/css/advantage.css);
+@import url(/css/instagram.css);
+@import url(/css/fashion.css);
+@import url(/css/brands.css);
+@import url(/css/subscribe.css);
+@import url(/css/footer.css);
+
+/* BLOCK ========== GLOBAL VARIABLE ========== */
+:root {
+    --num: 1920;
+    --trans: color 0.25s ease-in-out, background-color 0.25s ease-in-out,
+        border-color 0.25s ease-in-out;
+    --accent: #17696a;
+}

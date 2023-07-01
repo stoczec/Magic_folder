@@ -1,0 +1,51 @@
+.container {
+    width: 620px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.lang {
+    color: orangered;
+}
+
+.first_element span, ul span {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.second_element span {
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h2 {
+    color: green;
+}
+
+.first__paragraph,
+.second_paragraph {
+    font-family: Courier New, monospace;
+}
+
+.p1 span {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.third_element {
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+}
+
+ul {
+    color: burlywood;
+    font-style: italic;
+    font-size: 16px;
+}

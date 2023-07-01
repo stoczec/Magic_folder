@@ -1,0 +1,43 @@
+.SearchPage {
+  width: 95%;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.SearchPage input {
+  width: 350px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(128, 128, 128, 0.3);
+  color: #000;
+  text-align: center;
+}
+
+.SearchPage button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: mediumturquoise;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.SearchPage button:disabled {
+  background-color: firebrick;
+}
+
+.searchResults {
+  width: 100%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: center;
+  gap: 20px;
+}

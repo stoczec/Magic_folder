@@ -1,0 +1,45 @@
+span{
+    font-size: 20px;
+    color: red;
+}
+
+.p_color{
+    border: 3px solid red;
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: red; */
+}
+
+#paragraphTwo{
+    border: 5px solid rgb(47, 27, 117);
+    font-size: 25px;
+    font-weight: bold;
+}
+.blue_p{
+    color: aqua;
+}
+
+.font_p{
+    font-size: 20px;
+}
+
+#image_java{
+    width: 200px;
+    height: 150px;
+}
+#image_work{
+    width: 200px;
+    height: 150px;
+}
+
+#blockOne{
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin: 30px 50px 30px 15px;
+    padding: 30px 50px 30px 15px;
+}
+
+#blockTwo{
+    border: 1px solid brown;
+    background-color: wheat;
+}

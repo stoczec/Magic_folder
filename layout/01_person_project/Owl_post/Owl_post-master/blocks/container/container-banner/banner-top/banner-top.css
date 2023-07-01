@@ -1,0 +1,60 @@
+.banner-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-top__left {
+    max-width: calc(100% - (200px + 885px));
+}
+
+.banner-top__title {
+    margin: 96px 0 8px;
+}
+
+.banner-top__title .paragraph {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.banner-top__text {
+    margin-bottom: 36px;
+}
+
+.banner-top__text .paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner-top__button {
+    margin-bottom: 108px;
+}
+
+.banner-top__button .button {
+    width: 170px;
+    height: 48px;
+    background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+    border: none;
+    margin: 0;
+
+    color: #ffffff;
+}
+
+.banner-top__right {
+    max-width: calc(100% - (260px + 967px));
+}
+
+.banner-top__right .img-right {
+    max-width: 100%;
+    max-height: 100%;
+}

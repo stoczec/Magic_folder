@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,regular,700,900);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:900);
+
+:root {
+    --num: 1920;
+}
+
+/* ========== HEADER ========== */
+
+.header {
+    padding-top: calc((28vw * 100) / (var(--num)));
+    padding-bottom: calc((28vw * 100) / (var(--num)));
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 68px;
+}
+
+.header__menu li {
+    cursor: pointer;
+    text-transform: uppercase;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.header__burger {
+    display: none;
+}
+
+/* ========== OUR SPECIALTY ========== */
+
+.our_specialty {
+    background: #ebebeb;
+    padding-top: calc((140vw * 100) / (var(--num)));
+    padding-bottom: calc((140vw * 100) / (var(--num)));
+}
+
+.our_specialty__subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #bdbdbd;
+
+    margin-bottom: calc((40vw * 100) / (var(--num)));
+}
+
+.our_specialty__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    font-family: 'Merriweather';
+    color: #333333;
+
+    margin-bottom: calc((100vw * 100) / (var(--num)));
+}
+
+.our_specialty__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.our_specialty__card {
+    background-image: url(/img/our_specialty/Rectangle\ 2.svg);
+    background-position: center;
+}
+
+.our_specialty__card:hover {
+    background-color: #3475a5;
+    opacity: 0.6;
+    background-blend-mode: color-dodge;
+}
+
+.our_specialty__card p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+
+    margin-top: calc((260vw * 100) / (var(--num)));
+    margin-right: calc((118vw * 100) / (var(--num)));
+    margin-bottom: calc((45vw * 100) / (var(--num)));
+    margin-left: calc((45vw * 100) / (var(--num)));
+}
+
+/* ========== ABOUT US ========== */
+
+.about_us {
+    padding-top: calc((140vw * 100) / (var(--num)));
+    padding-bottom: calc((140vw * 100) / (var(--num)));
+}
+
+.about_us__container {
+    display: flex;
+}
+
+.about_us__subtitle {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #bdbdbd;
+    padding-right: calc((415vw * 100) / (var(--num)));
+    padding-bottom: calc((40vw * 100) / (var(--num)));
+}
+
+.about_us__title {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    padding-right: calc((220vw * 100) / (var(--num)));
+    padding-bottom: calc((60vw * 100) / (var(--num)));
+}
+
+.about_us__title span {
+    color: #005fa3;
+}
+
+.about_us__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: calc((125vw * 100) / (var(--num)));
+}
+
+.about_us__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    gap: 30px;
+
+    padding-top: calc((24vw * 100) / (var(--num)));
+}
+
+.about_us__card {
+    background: #ebebeb;
+    padding-top: calc((30vw * 100) / (var(--num)));
+    padding-right: calc((108vw * 100) / (var(--num)));
+    padding-bottom: calc((40vw * 100) / (var(--num)));
+    padding-left: calc((40vw * 100) / (var(--num)));
+}
+
+.card_todo__count {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: calc((30vw * 100) / (var(--num)));
+}
+.card_todo__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: calc((48vw * 100) / (var(--num)));
+}
+.card_todo__link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: none;
+    border-bottom: 1px solid #005fa3;
+    padding-bottom: 3px;
+    color: #005fa3;
+}
+
+/* ========== CONTACT US ========== */
+
+.contact_us {
+    background-image: url(/img/contact_us/bckgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-top: calc((122vw * 100) / (var(--num)));
+    padding-bottom: calc((140vw * 100) / (var(--num)));
+}
+
+.contact_us_container {
+    display: flex;
+    gap: calc((100vw * 100) / (var(--num)));
+}
+
+/* ---------- CONTACT US LEFT BLOCK ---------- */
+
+.contact_us__left_block {
+    display: flex;
+    flex-direction: column;
+}
+.contact_us__title {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #ffffff;
+
+    margin-bottom: calc((60vw * 100) / (var(--num)));
+}
+
+.contact_us__support_contact {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+
+    margin-bottom: calc((80vw * 100) / (var(--num)));
+}
+
+.contact_us__phone_email {
+    display: flex;
+    justify-content: end;
+    gap: calc((40vw * 100) / (var(--num)));
+}
+
+.contact_us__phone,
+.contact_us__our_email {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.contact_us__email,
+.contact_us__phone {
+    display: flex;
+    gap: calc((15vw * 100) / (var(--num)));
+
+    justify-content: space-between;
+}
+
+.contact_us__email_logo {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.contact_us__phone_logo {
+    width: 40px;
+    height: 30px;
+}
+
+/* ---------- CONTACT US RIGHT BLOCK ---------- */
+
+.contact_us__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form__name_block {
+    display: flex;
+    margin-bottom: 35px;
+    gap: 30px;
+}
+
+.block__secondname,
+.block__firstname {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_us__form label {
+    font-weight: 400;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.contact_us__form input {
+    background-color: transparent;
+    height: 35px;
+    color: #ffffff;
+}
+
+.form__firstname,
+.form_secondname {
+    width: 255px;
+}
+
+.form__message {
+    width: 540px;
+}
+
+.contact_us__form input::placeholder {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #bdbdbd;
+}
+
+.form__message {
+    padding-top: 20px;
+    padding-bottom: 84px;
+    margin-bottom: 50px;
+}
+
+.contact_us__form input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.form__btn {
+    width: 270px;
+    height: 60px;
+    background: #005fa3;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 0;
+    left: 40%;
+}
+
+/* ========== FOOTER ========== */
+
+.footer {
+    padding-top: calc((70vw * 100) / (var(--num)));
+    padding-bottom: calc((70vw * 100) / (var(--num)));
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}

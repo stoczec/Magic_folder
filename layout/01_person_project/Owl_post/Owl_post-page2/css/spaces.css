@@ -1,0 +1,16 @@
+.space30{
+    /* background-color:rgba(0, 255, 255, 0.5); */
+    height: 30px;
+}
+.space20{
+    /* background-color:rgba(0, 255, 255, 0.5); */
+    height: 20px;
+}
+.space50{
+    /* background-color:rgba(45, 102, 102, 0.5); */
+    height: 50px;
+}
+.space150{
+    height: 150px;
+    /* background-color:rgba(0, 255, 255, 0.5); */
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.back {
+    background-image: url(../img/york.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-color: #fbfbfb;
+}
+
+.container h1,
+.container p {
+    margin: 10px;
+}

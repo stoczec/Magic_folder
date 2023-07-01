@@ -1,0 +1,40 @@
+.userCard {
+    border: 2px dashed black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+}
+
+.studentCard {
+    border: 2px dashed black;
+    padding: 10px;
+    width: 150px;
+}
+
+.products_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.cardElem {
+    width: 400px;
+    background-color: #e2d2d2;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.deleteBtn {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

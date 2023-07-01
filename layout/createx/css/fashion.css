@@ -1,0 +1,156 @@
+.fashion {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.fashion__title-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fashion__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1e212c;
+}
+
+.fashion__btn {
+    width: 130px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.fashion__btn:hover {
+    background-color: var(--accent);
+    color: white;
+    transition: 0.5s;
+}
+
+/* SUB_BLOCK ========== FASHION CARDS ========== */
+
+.fashion__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fashion__card {
+    background: #ffffff;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+        0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+        0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+        0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+}
+
+.fashion__card :not(:first-child):not(li):not(span) {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.fashion__img {
+    margin-bottom: 24px;
+}
+
+.fashion__img {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.fashion__img img {
+    transition: 0.5s;
+}
+
+.fashion__img img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fashion__link {
+    margin-bottom: 12px;
+}
+
+.fashion__link a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1e212c;
+}
+
+.fashion__link a:hover {
+    color: var(--accent);
+}
+
+.fashion__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 21px;
+}
+/* ELEM_BLOCK ========== LIST ========== */
+.fashion__list {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.fashion__list li {
+    padding: 0 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.fashion__list li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #787a80;
+}
+
+.fashion__list li a:hover {
+    color: black;
+}
+
+.fashion__list li a:hover span {
+    color: black;
+}
+
+.fashion__list li span {
+    color: #787a80;
+}
+
+.fashion__list :first-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fashion__list :last-child {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.fashion__chat::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/fashion/Chat.svg);
+    margin-right: 8px;
+}

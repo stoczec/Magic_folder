@@ -1,0 +1,33 @@
+.banner {
+    color: white;
+    width: 1800px;
+    height: 480px;
+    background-color: rgba(39, 30, 24, 0.5);
+    border-radius: 36px;
+    margin: 0 auto;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: row;
+}
+.banner__img {
+    width: 406px;
+    margin: 38px 80px 38px 191px;
+}
+.banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner__title {
+    width: 763px;
+    font-size: 44px;
+    line-height: 56px;
+}
+.banner__text {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 19px 0 30px;
+    font-weight: 400;
+}

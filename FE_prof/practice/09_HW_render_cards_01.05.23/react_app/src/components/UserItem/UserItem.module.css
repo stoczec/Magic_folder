@@ -1,0 +1,28 @@
+.user__item {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: lightcyan;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+}

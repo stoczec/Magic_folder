@@ -1,0 +1,226 @@
+.banners {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+
+
+.banner {
+    padding: 60px;
+    min-height: 500px;
+}
+.block1 {
+    background-image: url(/img/banners/block1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    grid-column: 1 / span 2;
+}
+.block2 {
+    background-image: url(/img/banners/block2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    grid-column: 3 / span 3;
+}
+.block3 {
+    background-image: url(/img/banners/block3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    grid-column: 1 / span 3;
+}
+.block4 {
+    background: url(/img/banners/image.svg) right bottom no-repeat,
+        url(/img/banners/block4.png);
+
+    grid-column: 4 / span 2;
+}
+
+.banner__subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e212c;
+}
+
+.banner__title {
+    max-width: 352px;
+    margin-top: 12px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #1e212c;
+}
+
+.block4 .banner__title {
+    max-width: 392px;
+}
+
+.banner__link {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px;
+
+    width: 190px;
+    height: 44px;
+    border: 1px solid #17696a;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #17696a;
+}
+
+.banner__link:hover {
+    background-color: #17696a;
+    color: white;
+}
+
+.banner__link:hover::after {
+    content: '';
+    background-color: white;
+}
+
+.block3 a::after {
+    content: '';
+    background-image: url(/img/banners/Right.png);
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+/* ---------- FORM ---------- */
+
+.banner__form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bunner__input_group {
+    display: flex;
+    position: relative;
+    margin-right: 145px;
+}
+
+.banner__input {
+    margin-top: 8px;
+    padding: 12px 228px 12px 16px;
+
+    background: #ffffff;
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+}
+
+.banner__input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #9a9ca5;
+}
+
+.banner__button {
+    margin-top: 8px;
+    padding: 0 32px;
+
+    position: relative;
+    top: 0;
+    right: 136px;
+
+    background: #17696a;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.banner__button:hover {
+    background: #17694a;
+}
+
+.banner__subscription {
+    width: 360px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
+}
+
+/* ---------- TIMER ---------- */
+
+.banner__timer {
+    margin-top: 80px;
+}
+
+.timer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1e212c;
+}
+
+.timer__counter {
+    display: flex;
+    gap: 24px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.counter__day,
+.counter__hour,
+.counter__min,
+.counter__sec {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1e212c;
+}
+
+.counter__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1e212c;
+}

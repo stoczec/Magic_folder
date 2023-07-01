@@ -1,0 +1,22 @@
+.wine__item {
+    width: clamp(250px, 50%, 350px);
+    background-color: aqua;
+}
+
+.wine__item p:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.pp {
+    /* font-size: 32px; */
+    font-size: clamp(16px, 30vw, 32px);
+}

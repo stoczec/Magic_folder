@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}

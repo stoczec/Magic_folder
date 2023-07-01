@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/background/schloss.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Gilroy";
+    
+}
+.container{
+    background-color: rgba(224, 211, 201, 0.336);
+
+}
+.italic{
+    font-style: italic;
+    font-weight: 600;
+}
+.title_big {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 56px;
+}
+.title_middle {
+    font-size: 36px;
+}
+.title_small {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main__title {
+    width: 695px;
+    margin-bottom: 14px;
+    padding-top: 16px;
+}
+.delivery__title {
+    width: 824px;
+}
+
+.main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.link-green {
+    text-decoration: none;
+    color: #01cd7d;
+}
+/* ------------------активное меню-------------- */
+.main__menu {
+    display: flex;
+    height: 270px;
+    width: 1400px;
+    border-radius: 16px;
+    justify-content: space-evenly;
+}
+.menu__options {
+    height: 120px;
+}
+.menu__options-aktiv {
+    display: flex;
+    padding-top: 20px;
+}
+.menu__value {
+    display: flex;
+    align-items: center;
+}
+.menu__dropdown {
+    position: relative;
+    left: 30%;
+    align-self: center;
+}
+.menu__options-inaktiv {
+    display: flex;
+    padding-top: 20px;
+}
+.button-allighn {
+    margin-top: 32px;
+}
+.menu__title {
+    padding-top: 46px;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+}
+.menu__icon {
+    margin-right: 18.25px;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 36px;
+}
+.delivery__paragraph .paragraph {
+    width: 760px;
+}
+.main__text .paragraph {
+    width: 760px;
+}
+.main__text-small {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.main__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__column {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* -----------------------------------виды доствок--------------------- */
+.delivery__rows {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+.row-height {
+    height: 84px;
+}
+.row {
+    background-color: rgba(224, 211, 201, 0.473);
+    height: 104px;
+}
+.row__1 {
+    width: 723px;
+    display: flex;
+    padding-left: 29px;
+}
+.row__text1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    padding-left: 27px;
+    align-items: center;
+}
+.row__img {
+    display: flex;
+    align-content: center;
+}
+.row__2 {
+    height: 82px;
+    border-left: 1px solid #000;
+    padding-left: 57px;
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row__3 {
+    padding-left: 42px;
+    border-left: 1px solid #000;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row__4 {
+    padding-left: 43px;
+    border-left: 1px solid #000;
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row__5 {
+    border-left: 1px solid #000;
+    padding-left: 16px;
+    display: flex;
+    align-items:center
+}
+.icon-info {
+    margin-left: 13px;
+    width: 16px;
+}
+.icon-OK{
+    width: 14px;
+    height: 7px;
+}
+
+.row__text {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+.row__title{
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+}
+
+
