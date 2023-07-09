@@ -1,11 +1,12 @@
 import React from 'react';
 import style from '../NavMenu/NavMenu.module.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import navMenuLinks from './data.json';
 
 export const NavMenu = () => {
   return (
     <div className={style.nav_menu}>
-      <Link to="/">
+      {/* <Link to="/">
         <a>Main</a>
       </Link>
       <Link to="/category">
@@ -23,7 +24,19 @@ export const NavMenu = () => {
       <a href="#">NEW!</a>
       <a href="#">Producers</a>
       <a href="#">Delivery</a>
-      <a href="#">Payment</a>
+      <a href="#">Payment</a> */}
+      <nav>
+        <ul>
+          {navMenuLinks.map((link, idx) => {
+            const { path, name } = link;
+            return (
+              <li key={idx}>
+                <a href={path}>{name}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </div>
   );
 };

@@ -1,13 +1,13 @@
-import HomePage from './HomePage/HomePage';
-import CategoryPage from './CategoryPage/CategoryPage';
-import DetailedProductPage from './DetailedProductPage/DetailedProductPage';
-import CartPage from './CartPage/CartPage';
-import AboutPage from './AboutPage/AboutPage';
-import ContactPage from './ContactPage/ContactPage';
-import NewPage from './NewPage/NewPage';
-import ManuFacturesPage from './ManuFacturesPage/ManuFacturesPage';
-import DeliveryPage from './DeliveryPage/DeliveryPage';
-import PaymentPage from './PaymentPage/PaymentPage';
+import { HomePage } from './HomePage/HomePage';
+import { CategoryPage } from './CategoryPage/CategoryPage';
+import { DetailedProductPage } from './DetailedProductPage/DetailedProductPage';
+import { CartPage } from './CartPage/CartPage';
+import { AboutPage } from './AboutPage/AboutPage';
+import { ContactPage } from './ContactPage/ContactPage';
+import { NewPage } from './NewPage/NewPage';
+import { ManuFacturesPage } from './ManuFacturesPage/ManuFacturesPage';
+import { DeliveryPage } from './DeliveryPage/DeliveryPage';
+import { PaymentPage } from './PaymentPage/PaymentPage';
 
 export {
   HomePage,
